@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.menu1 {
+  background-color: #333333;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100%;
+}
+
+.menu1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu1 a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#Home {
+  width: 100%;
+}
+
+#gridview img {
+  width: 200px;
+  height: 100px;
+}
